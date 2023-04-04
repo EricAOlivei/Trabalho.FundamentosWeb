@@ -1,78 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Pizza HIT</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="icon" type="image/x-icon" href="images/pizza-icon.ico">
-    <script src='main.js'></script>
-</head>
-<body>
-    <div class="container">
-        <h1 style="text-align: center;">Pizza HIT</h1>
-        <h3 style="text-align: center;">A melhor pizzaria de campinas e região</h3>
-
-        <audio controls>
-            <source src="songs/song.mp3" type="audio/mpeg">
-        </audio>
-
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Pizza HIT</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="icon" type="image/x-icon" href="images/pizza-icon.ico">
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <script src='main.js'></script>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div> 
+                <nav>
+                    <li style="float: left;"><img src="../images/PizzaHitNav.png"></li>
+                    <li><a href="quem-somos.html">Sobre</a></li>
+                    <li><a href="pedir-pizza.html">Pedir Pizza</a></li>
+                    <li><a href="main.html">Início</a></li>
+                </nav>
+            </div>
+        
+        <div class="title">
+            <h1 style="text-align: center;">Pizza HIT</h1>
+            <h3 style="text-align: center;">A melhor pizzaria de campinas e região</h3>
+        </div>
+        
+        <div hidden>
+            <audio  controls loop>
+                <source src="songs/song.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        
         <div class="main_images">
-            <img src="images/pizza1.jpg" width="30%" height="290">
-            <img src="images/restaurante1.jpg" width="30%" height="290">
+            <img style="margin-right: 10px;" src="images/pizza1.jpg" width="30%" height="290">
+            <img style="margin-right: 10px;" src="images/restaurante1.jpg" width="30%" height="290">
             <img src="images/pizza2.jpg" width="30%" height="290">
         </div>
         
-        <h1 style="text-align: center;">Qual vai ser a boa hoje?</h1>
-        <h3 style="text-align: center;">Escolha o sabor que desejar!</h3>
-
-        <div class="menu">
-            <a href="pizza-peperoni.html">
-                <div class="menu_block_1" style="width: 30%;">
-                    <img src="images/menu-pizza1.jpg">
-                    <h3>Pizza de Peperoni</h3>
-                    <p>R$ 50,00</p>
-                </div>
-            </a>
-            <a href="pizza-queijo.html">
-                <div class="menu_block_2" style="width: 30%;">
-                    <img src="images/menu-pizza2.jpg">
-                    <h3>Pizza de queijo</h3>
-                    <p>R$ 50,00</p>
-                </div>
-            </a>
-            <a href="pizza-margherita.html">
-                <div class="menu_block_3" style="width: 30%;">
-                    <img src="images/menu-pizza3.jpg">
-                    <h3>Pizza de margherita</h3>
-                    <p>R$ 50,00</p>
-                </div>
-            </a>
-            <a href="pizza-carne-seca.html">
-                <div class="menu_block_4" style="width: 30%;">
-                    <img src="images/menu-pizza4.jpg">
-                    <h3>Pizza de carne seca</h3>
-                    <p>R$ 50,00</p>
-                </div>
-            </a>
-            <a href="pizza-cogumelo.html">
-                <div class="menu_block_5" style="width: 30%;">
-                    <img src="images/menu-pizza5.jpg">
-                    <h3>Pizza de cogumelos</h3>
-                    <p>R$ 50,00</p>
-                </div>
-            </a>
-            <a href="pizza-tomate-seco.html">
-                <div class="menu_block_6" style="width: 30%;">
-                    <img src="images/menu-pizza6.jpg">
-                    <h3>Pizza de tomate seco</h3>
-                    <p>R$ 50,00</p>
-                </div>
-            </a>
+        <div class="secondTitle">
+            <h1 style="text-align: center;">Qual vai ser a boa hoje?</h1>
+            <h3 style="text-align: center;">Escolha o sabor que desejar!</h3>
         </div>
 
+        <div class="menu">
+            <div class="images">
+                <a href="pizza-peperoni.html">
+                    <div class="menu_block_1" style="width: 30%;">
+                        <img style="width: 300px; height: 300px" src="images/menu-pizza1.jpg">
+                        <h3>Pizza de Peperoni</h3>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+                <a href="pizza-queijo.html">
+                    <div class="menu_block_2" style="width: 30%;">
+                        <img style="width: 300px; height: 300px" src="images/menu-pizza2.jpg">
+                        <h3>Pizza de queijo</h3>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+                <a href="pizza-margherita.html">
+                    <div class="menu_block_3" style="width: 30%;">
+                        <img style="width: 300px; height: 300px" src="images/menu-pizza3.jpg">
+                        <h3>Pizza de margherita</h3>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+            </div>
+            <div class="images">
+                <a href="pizza-carne-seca.html">
+                    <div class="menu_block_4" style="width: 30%;">
+                        <img style="width: 300px; height: 300px" src="images/menu-pizza4.jpg">
+                        <h3>Pizza de carne seca</h3>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+                <a href="pizza-cogumelo.html">
+                    <div class="menu_block_5" style="width: 30%;">
+                        <img style="width: 300px; height: 300px" src="images/menu-pizza5.jpg">
+                        <h3>Pizza de cogumelos</h3>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+                <a href="pizza-tomate-seco.html">
+                    <div class="menu_block_6" style="width: 30%;">
+                        <img style="width: 300px; height: 300px" src="images/menu-pizza6.jpg">
+                        <h3>Pizza de tomate seco</h3>
+                        <p>R$ 50,00</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <h3 style="margin-left: 43%;">Horário de funcionamento</h3>
         <div class="horario_funcionamento">
-            <h3>Horário de funcionamento</h3>
             <table>
                 <tr>
                   <th>Segunda-feira</th>
@@ -93,11 +115,6 @@
                   <td>18h00-00h00</td>
                 </tr>                
               </table>
-        </div>
-
-        <div class="iframe">
-            <h3>Onde nos encontrar:</h3>
-            <iframe src="https://www.google.com.br/maps/place/Hortol%C3%A2ndia,+SP/@-22.8769465,-47.2440486,13z/data=!3m1!4b1!4m6!3m5!1s0x94c8b95bfb508f39:0x1ce857c1058169b4!8m2!3d-22.8573469!4d-47.2210564!16zL20vMDQwaGRn" title="Localização"></iframe>
         </div>
     </div>
 </body>
